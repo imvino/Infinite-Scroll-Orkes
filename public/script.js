@@ -55,6 +55,7 @@ window.addEventListener("scroll", () => {
   const shouldLoadPhotos =
     scrollTop + clientHeight >= scrollHeight - 5 && !loading;
   if (shouldLoadPhotos) {
+    page++;
     loadPhotos();
   }
 });
