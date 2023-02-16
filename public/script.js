@@ -1,4 +1,4 @@
-const page = 1;
+let page = 1;
 let loading = false;
 
 function formatDate(timestamp) {
